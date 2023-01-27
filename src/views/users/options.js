@@ -1,0 +1,22 @@
+export const options = [{
+    prop:'username',
+    lable:'username'
+},{
+    prop:'email',
+    lable:'email'
+},{
+    prop:'role_name',
+    lable:'role_name'
+},{
+    prop:'mobile',
+    lable:'mobile'
+},{
+    prop:'mg_state',
+    lable:'mg_state'
+},{
+    prop:'create_time',
+    lable:'create_time'
+},{
+    prop:'action',
+    lable:'action'
+}]

@@ -1,4 +1,5 @@
-module.exports = {
+
+module.exports ={
   // 可选类型
   types: [
     { value: 'feat', name: 'feat:     新功能' },

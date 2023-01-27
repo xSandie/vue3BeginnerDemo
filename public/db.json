@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "email": "admin@123.com",
+      "password": "$2a$10$Jjk9e.1sf7nUdtTGLQx0nuZq8MU6txm0f8fMSPyElAR6Gs4tgpURW",
+      "id": 1
+    }
+  ],
+  "user":[{
+    "pagenum":1,
+    "total":15,
+    "users":[{
+      "id":1,
+      "role_name":"业务员",
+      "username":"wxq",
+      "create_time":1642564727,
+      "mobile":"18349230472",
+      "mg_state":true,
+      "email":"admin@123.com"
+    },{
+      "id":2,
+      "role_name":"业务员1",
+      "username":"wxq66",
+      "create_time":1642564727,
+      "mobile":"18349230472",
+      "mg_state":true,
+      "email":"admin@123.com"
+    }]
+  }],
+  "menus": [
+    {
+      "id": 125,
+      "authName": "用户管理",
+      "path": "users",
+      "order": 1,
+      "children": [
+        {
+          "id": 126,
+          "authName": "用户列表",
+          "path": "users"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "authName": "权限管理",
+      "path": "rights",
+      "order": 2,
+      "children": [
+        {
+          "id": 135,
+          "authName": "角色列表",
+          "path": "roles"
+        },{
+          "id": 134,
+          "authName": "权限列表",
+          "path": "rights"
+        }
+      ]
+    },{
+      "id": 120,
+      "authName": "商品管理",
+      "path": "goods",
+      "order": 3,
+      "children": [
+        {
+          "id": 111,
+          "authName": "商品列表",
+          "path": "goods"
+        },{
+          "id": 112,
+          "authName": "商品分类",
+          "path": "categories"
+        },{
+          "id": 113,
+          "authName": "分类参数",
+          "path": "params"
+        }
+      ]
+    },{
+      "id": 100,
+      "authName": "订单管理",
+      "path": "orders",
+      "order": 4,
+      "children": [
+        {
+          "id": 99,
+          "authName": "订单管理",
+          "path": "orders"
+        }
+      ]
+    },{
+      "id": 70,
+      "authName": "数据统计",
+      "path": "reports",
+      "order": 5,
+      "children": [
+        {
+          "id": 71,
+          "authName": "数据统计",
+          "path": "reports"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
